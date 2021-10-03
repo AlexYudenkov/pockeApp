@@ -1,0 +1,14 @@
+<resources>
+	<string name="app_name">pokeApp</string>
+	<string name="sort_by_attack">Сортировать по атаке</string>
+	<string name="sort_by_defend">Сортировать по защите</string>
+	<string name="sort_by_hp">Сортировать по очкам здоровья</string>
+	<string name="height">Рост</string>
+	<string name="name">Имя</string>
+	<string name="weight">Вес</string>
+	<string name="poke_image_descr">изображение покемона</string>
+	<string name="sort_button">кнопка сортировки</string>
+	<string name="download_extra_data">Загружаем дополнительные данные…</string>
+	<string name="up">подняться на верх</string>
+	<string name="download_image_descr">загрузка</string>
+</resources>
