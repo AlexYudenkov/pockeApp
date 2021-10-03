@@ -1,0 +1,97 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:aapt="http://schemas.android.com/aapt">
+	<aapt:attr name="android:drawable">
+		<vector android:name="vector"
+			android:width="299dp"
+			android:height="299dp"
+			android:viewportHeight="299"
+			android:viewportWidth="299">
+			<group android:name="group"
+				android:pivotX="150"
+				android:pivotY="150">
+				<path android:name="path_1"
+					android:pathData="M 150.203 266.251 C 119.629 266.251 90.276 254.093 68.657 232.474 C 47.037 210.855 34.879 181.502 34.879 150.928 C 34.879 120.354 47.037 91.001 68.657 69.381 C 90.276 47.762 119.629 35.604 150.203 35.604"
+					android:strokeColor="#000000"
+					android:strokeWidth="17.21250057"/>
+			</group>
+			<group android:name="group_1"
+				android:pivotX="150"
+				android:pivotY="150">
+				<path android:name="path_2"
+					android:pathData="M 62.788 148.279 C 62.788 125.158 71.983 102.96 88.332 86.611 C 104.681 70.262 126.879 61.067 150 61.067 C 173.121 61.067 195.319 70.262 211.668 86.611 C 228.017 102.96 237.212 125.158 237.212 148.279"
+					android:strokeColor="#000000"
+					android:strokeWidth="13.01666975"/>
+			</group>
+		</vector>
+	</aapt:attr>
+	<target android:name="group">
+		<aapt:attr name="android:animation">
+			<objectAnimator android:duration="2000"
+				android:repeatMode="restart"
+				android:repeatCount="infinite"
+				android:interpolator="@android:anim/linear_interpolator"
+				android:propertyName="rotation"
+				android:valueFrom="0"
+				android:valueTo="360"
+				android:valueType="floatType"/>
+		</aapt:attr>
+	</target>
+	<target android:name="group_1">
+		<aapt:attr name="android:animation">
+			<objectAnimator android:duration="2000"
+				android:repeatMode="restart"
+				android:repeatCount="infinite"
+				android:interpolator="@android:anim/linear_interpolator"
+				android:propertyName="rotation"
+				android:valueFrom="0"
+				android:valueTo="-360"
+				android:valueType="floatType"/>
+		</aapt:attr>
+	</target>
+	<target android:name="path_1">
+		<aapt:attr name="android:animation">
+			<set>
+				<objectAnimator android:duration="1000"
+					android:repeatMode="restart"
+					android:repeatCount="infinite"
+					android:interpolator="@android:anim/linear_interpolator"
+					android:propertyName="strokeColor"
+					android:valueFrom="@color/purple_200"
+					android:valueTo="@color/purple_500"
+					android:valueType="colorType"/>
+				<objectAnimator android:duration="1000"
+					android:repeatMode="restart"
+					android:repeatCount="infinite"
+					android:interpolator="@android:anim/linear_interpolator"
+					android:propertyName="strokeColor"
+					android:startOffset="1000"
+					android:valueFrom="@color/purple_500"
+					android:valueTo="@color/purple_200"
+					android:valueType="colorType"/>
+			</set>
+		</aapt:attr>
+	</target>
+	<target android:name="path_2">
+		<aapt:attr name="android:animation">
+			<set>
+				<objectAnimator android:duration="1000"
+					android:repeatMode="restart"
+					android:repeatCount="infinite"
+					android:interpolator="@android:anim/linear_interpolator"
+					android:propertyName="strokeColor"
+					android:valueFrom="@color/purple_200"
+					android:valueTo="@color/purple_500"
+					android:valueType="colorType"/>
+				<objectAnimator android:duration="1000"
+					android:repeatMode="restart"
+					android:repeatCount="infinite"
+					android:interpolator="@android:anim/linear_interpolator"
+					android:propertyName="strokeColor"
+					android:startOffset="1000"
+					android:valueFrom="@color/purple_500"
+					android:valueTo="@color/purple_200"
+					android:valueType="colorType"/>
+			</set>
+		</aapt:attr>
+	</target>
+</animated-vector>
