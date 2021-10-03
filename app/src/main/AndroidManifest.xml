@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="ru.alexydenkov.pokeList">
+
+	<uses-permission android:name="android.permission.INTERNET"/>
+
+	<application
+		android:requestLegacyExternalStorage="true"
+		android:name="ru.alexydenkov.App"
+		android:allowBackup="true"
+		android:icon="@drawable/ic_pikachu"
+		android:label="@string/app_name"
+		android:supportsRtl="true"
+		android:theme="@style/Theme.PockeApp">
+		<activity
+			android:name="ru.alexydenkov.MainActivity"
+			android:exported="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+	</application>
+
+</manifest>
